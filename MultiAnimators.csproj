@@ -9,10 +9,8 @@
         <AssemblyName>002_MultiAnimators</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     </PropertyGroup>
-    <Import Project="$(MSBuildProjectDirectory)/../../CSharp.warnings.xml" />
+    <Import Project="$(MSBuildProjectDirectory)/../CSharp.warnings.xml" />
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <DebugSymbols>true</DebugSymbols>
-        <DebugType>full</DebugType>
         <Optimize>false</Optimize>
         <OutputPath>..\GameData\000_AT_Utils\Plugins</OutputPath>
         <DefineConstants>DEBUG;NIGHTBUILD</DefineConstants>
@@ -46,51 +44,51 @@
     </ItemGroup>
     <ItemGroup>
         <Reference Include="Assembly-CSharp">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\Assembly-CSharp.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="Assembly-CSharp-firstpass">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\Assembly-CSharp-firstpass.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="KSPAssets">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\KSPAssets.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\KSPAssets.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="Mono.Cecil">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\Mono.Cecil.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\Mono.Cecil.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="System">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\System.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\System.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="System.Core">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\System.Core.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\System.Core.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="System.Xml">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\System.Xml.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\System.Xml.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\UnityEngine.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\UnityEngine.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\UnityEngine.AnimationModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\UnityEngine.AudioModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\UnityEngine.CoreModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.UI">
-            <HintPath>..\..\KSP-test\KSP_test_1.12.3\KSP_Data\Managed\UnityEngine.UI.dll</HintPath>
+            <HintPath>..\..\00. KSP DEVELOP PLUGINS\UnityEngine.UI.dll</HintPath>
             <Private>False</Private>
         </Reference>
     </ItemGroup>
@@ -100,7 +98,7 @@
             <Name>AnisotropicPartResizer</Name>
             <Private>False</Private>
         </ProjectReference>
-        <ProjectReference Include="..\AT_Utils.csproj">
+        <ProjectReference Include="..\src\AT_Utils\AT_Utils.csproj">
             <Project>{64CC36A2-0610-4F74-9F31-3D4E22866B7E}</Project>
             <Name>AT_Utils</Name>
             <Private>False</Private>
